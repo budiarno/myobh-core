@@ -1,0 +1,917 @@
+# Italian translations for plugins package.
+# Copyright (C) 2012 THE plugins'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the plugins package.
+# Automatically generated, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: enigma2-obh-core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-01-03 18:19+0000\n"
+"PO-Revision-Date: 2018-01-11 14:38+0000\n"
+"Last-Translator: \n"
+"Language-Team: vuplus-community.net <@insanity - @alexwilmac>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: BackupManager.py:44 ImageManager.py:40
+msgid "Daily"
+msgstr "Giornaliero"
+
+#: BackupManager.py:44 ImageManager.py:40
+msgid "Weekly"
+msgstr "Settimanale"
+
+#: BackupManager.py:44 ImageManager.py:40
+msgid "30 Days"
+msgstr "30 giorni"
+
+#: BackupManager.py:112 BackupManager.py:173 BackupManager.py:319
+#: BackupManager.py:335 BackupManager.py:378 BackupManager.py:396
+#: BackupManager.py:1027 ImageManager.py:349 ui.py:41
+msgid "Backup manager"
+msgstr "Gestione backup"
+
+#: BackupManager.py:135
+msgid "Restore"
+msgstr "Ripristino"
+
+#: BackupManager.py:136 ImageManager.py:105 SwapManager.py:189
+msgid "Delete"
+msgstr "Elimina"
+
+#: BackupManager.py:148 BackupManager.py:150 BackupManager.py:294
+#: BackupManager.py:296 ImageManager.py:118 ImageManager.py:120
+#: ImageManager.py:286 ImageManager.py:288
+msgid "Next backup: "
+msgstr "Backup successivo: "
+
+#: BackupManager.py:148 BackupManager.py:294 ImageManager.py:118
+#: ImageManager.py:286
+msgid "%a %e %b  %-H:%M"
+msgstr "%a %e %b  %-H:%M"
+
+#: BackupManager.py:177 BackupManager.py:332 BackupManager.py:375
+#: ImageManager.py:148 ImageManager.py:335
+msgid "View progress"
+msgstr "Visualizza progresso"
+
+#: BackupManager.py:179 ImageManager.py:150
+msgid "New backup"
+msgstr "Nuovo backup"
+
+#: BackupManager.py:223 ImageManager.py:222
+msgid "The chosen location does not exist, using /media/hdd"
+msgstr "Il percorso non esiste: utilizzare /media/hdd"
+
+#: BackupManager.py:223
+msgid "Select a backup to Restore:"
+msgstr "Seleziona un backup da ripristinare:"
+
+#: BackupManager.py:232
+msgid "Device: none available"
+msgstr "Supporti: nessuno disponibile"
+
+#: BackupManager.py:232 BackupManager.py:246
+msgid "Select a backup to restore:"
+msgstr "Seleziona un backup da ripristinare:"
+
+#: BackupManager.py:246 BackupManager.py:263 ImageManager.py:249
+#: ImageManager.py:258 MountManager.py:189 MountManager.py:204
+#: MountManager.py:224
+msgid "Device: "
+msgstr "Dispositivo: "
+
+#: BackupManager.py:263 ImageManager.py:258
+msgid "there is a problem with this device, please reformat it and try again."
+msgstr ""
+"C'è un problema con questo dispositivo, si prega di riformattarlo e "
+"riprovare."
+
+#: BackupManager.py:303
+msgid ""
+"Are you sure you want to delete this backup:\n"
+" "
+msgstr ""
+"Sei sicuro di voler eliminare questo backup:\n"
+" "
+
+#: BackupManager.py:305 ImageManager.py:297
+msgid "Remove confirmation"
+msgstr "Confermare rimozione"
+
+#: BackupManager.py:307
+msgid "You have no backup to delete."
+msgstr "Non hai nessun backup da eliminare."
+
+#: BackupManager.py:349
+msgid "You have no backups to restore."
+msgstr "Non hai nessun backup da ripristinare."
+
+#: BackupManager.py:351
+msgid ""
+"Backup in progress,\n"
+"Please wait for it to finish, before trying again"
+msgstr ""
+"Backup in corso:\n"
+"attendere il termine prima di riprovare"
+
+#: BackupManager.py:362 BackupManager.py:364 RestoreWizard.py:198
+#: RestoreWizard.py:202
+msgid "Sorry, but the file is not compatible with this image version."
+msgstr "Purtroppo il file non è compatibile con questa versione dell’immagine"
+
+#: BackupManager.py:367
+msgid ""
+"Are you sure you want to restore this backup:\n"
+" "
+msgstr ""
+"Vuoi ripristinare questo backup:\n"
+" "
+
+#: BackupManager.py:369
+msgid "Restore Confirmation"
+msgstr "Conferma ripristino"
+
+#: BackupManager.py:397 BackupManager.py:400 BackupManager.py:403
+msgid "Restoring backup..."
+msgstr "Ripristino backup..."
+
+#: BackupManager.py:406 BackupManager.py:409 BackupManager.py:1034
+#: BackupManager.py:1037
+msgid "Creating list of installed plugins..."
+msgstr "Creazione lista plugin installati..."
+
+#: BackupManager.py:412 BackupManager.py:415
+msgid "Comparing against backup..."
+msgstr "Confronto con il backup..."
+
+#: BackupManager.py:418 BackupManager.py:421
+msgid "Restoring plugins..."
+msgstr "Ripristino plugin..."
+
+#: BackupManager.py:424 BackupManager.py:427
+msgid "Restoring plugins, this can take a long time..."
+msgstr "Ripristino plugin: potrebbe impiegare molto tempo..."
+
+#: BackupManager.py:430
+msgid "Rebooting..."
+msgstr "Riavvio..."
+
+#: BackupManager.py:436
+msgid "Do you want to restore your enigma2 settings ?"
+msgstr "Vuoi ripristinare le tue configurazioni Enigma2?"
+
+#: BackupManager.py:459
+msgid "Sorry, but the restore failed."
+msgstr "Ripristino fallito"
+
+#: BackupManager.py:478 RestoreWizard.py:173 RestoreWizard.py:282
+msgid "A background update check is in progress, please try again."
+msgstr ""
+"E’ in corso in sottofondo un controllo per eventuali aggiornamenti: "
+"riprovare."
+
+#: BackupManager.py:509
+msgid "Sorry feeds are down for maintenance, Please try again later."
+msgstr "Il server è in fase di manutenzione: riprovare più tardi."
+
+#: BackupManager.py:513
+#, python-format
+msgid ""
+"Your %s %s is not connected to the internet, please check your network "
+"settings and try again."
+msgstr ""
+"Il tuo %s %s non è connesso a Internet: controllare le impostazioni della "
+"rete e riprovare."
+
+#: BackupManager.py:590
+msgid "Do you want to restore your Enigma2 plugins ?"
+msgstr "Vuoi ripristinare i tuoi plugin Enigma2?"
+
+#: BackupManager.py:602
+msgid "Now skipping restore process"
+msgstr "Salto il processo di ripristino"
+
+#: BackupManager.py:639
+msgid "Select files/folders to backup"
+msgstr "Seleziona file o cartelle da salvare"
+
+#: BackupManager.py:652 BackupManager.py:742 BackupManager.py:823
+#: MountManager.py:299
+msgid "Cancel"
+msgstr "Annulla"
+
+#: BackupManager.py:653 BackupManager.py:743 MountManager.py:298
+msgid "Save"
+msgstr "Salva"
+
+#: BackupManager.py:684
+msgid "Deselect"
+msgstr "Deseleziona"
+
+#: BackupManager.py:686
+msgid "Select"
+msgstr "Seleziona"
+
+#: BackupManager.py:730
+msgid "Select extra packages folder"
+msgstr "Selezionare la cartella dei pacchetti aggiuntivi"
+
+#: BackupManager.py:770
+msgid "Select folder that contains plugins"
+msgstr "Seleziona la cartella che contiene plugin"
+
+#: BackupManager.py:796
+msgid "Please enter a folder that contains some packages."
+msgstr "Selezionare una cartella che contenga dei pacchetti."
+
+#: BackupManager.py:824 RestoreWizard.py:119
+msgid "OK"
+msgstr "OK"
+
+#: BackupManager.py:825
+msgid "Choose files"
+msgstr "Selezionare file"
+
+#: BackupManager.py:826
+msgid "Choose local ipk's folder"
+msgstr "Selezionare la cartella ipk"
+
+#: BackupManager.py:847
+msgid "Logs"
+msgstr "Log"
+
+#: BackupManager.py:861
+msgid "Backup created"
+msgstr "Backup creato"
+
+#: BackupManager.py:963
+#, python-format
+msgid ""
+"Your %s %s is about to run a backup of your settings and detect your "
+"plugins,\n"
+"Do you want to allow this?"
+msgstr ""
+"Il tuo %s %s sta per eseguire un backup di configurazioni e plugin:\n"
+"procedo?"
+
+#: BackupManager.py:988 ImageManager.py:498
+msgid "Enough retries, delaying till next schedule."
+msgstr "Troppi tentativi: rimando fino alla prossima programmazione."
+
+#: BackupManager.py:1028 BackupManager.py:1031
+msgid "Starting..."
+msgstr "Inizio..."
+
+#: BackupManager.py:1040 BackupManager.py:1043 BackupManager.py:1052
+#: BackupManager.py:1055
+msgid "Backing up files..."
+msgstr "Backup dei file..."
+
+#: BackupManager.py:1046 BackupManager.py:1049
+msgid "Preparing extra plugins..."
+msgstr "Preparazione dei plugin aggiuntivi..."
+
+#: BackupManager.py:1058
+msgid "Backup Complete..."
+msgstr "Backup completo..."
+
+#: BackupManager.py:1108
+msgid "The backup location does not have enough free space."
+msgstr "Il dispositivo di backup non ha sufficiente spazio libero."
+
+#: BackupManager.py:1148
+msgid ""
+"Plugin listing failed - e. g. wrong backup destination or no space left on "
+"backup device"
+msgstr ""
+"Elencazione dei plugin fallita, ad es. per destinazione backup errata o per "
+"spazio insufficiente"
+
+#: BackupManager.py:1209
+msgid ""
+"Backup failed - e. g. wrong backup destination or no space left on backup "
+"device"
+msgstr ""
+"Backup non riuscito, ad es. per destinazione sbagliata o per spazio "
+"insufficiente sul supporto di backup"
+
+#: IPKInstaller.py:23 IPKInstaller.py:147
+msgid "IPK installer"
+msgstr "Installazione IPK"
+
+#: IPKInstaller.py:49 IPKInstaller.py:154 ImageManager.py:952
+#: SwapManager.py:106 ui.py:65
+msgid "Close"
+msgstr "Chiudi"
+
+#: IPKInstaller.py:50 IPKInstaller.py:155
+msgid "Install"
+msgstr "Installare"
+
+#: IPKInstaller.py:75 IPKInstaller.py:94
+msgid "Extra IPK's"
+msgstr "IPK aggiuntivi"
+
+#: IPKInstaller.py:78
+msgid ""
+"It seems you have not setup an extra location, please set it up in the "
+"Backup Manager setup menu "
+msgstr ""
+"Sembra che tu non abbia scelto un percorso aggiuntivo: impostalo nel menu "
+"'Gestione backup' "
+
+#: IPKInstaller.py:80 IPKInstaller.py:84
+msgid "Change location"
+msgstr "Cambia percorso"
+
+#: IPKInstaller.py:82
+msgid ""
+"Sorry but that location does not exist or is not setup, please set it up in "
+"the Backup Manager setup menu "
+msgstr ""
+"Questo percorso non esiste o non è stato impostato: farlo nel menu “Backup”"
+
+#: IPKInstaller.py:88 IPKInstaller.py:96
+msgid "Temp folder"
+msgstr "Cartella Temp"
+
+#: IPKInstaller.py:97
+msgid "Select a package to install:"
+msgstr "Seleziona il pacchetto da installare:"
+
+#: IPKInstaller.py:114
+msgid "Are you ready to install ?"
+msgstr "Vuoi procedere con l'installazione?"
+
+#: IPKInstaller.py:116
+msgid "Install confirmation"
+msgstr "Conferma installazione"
+
+#: IPKInstaller.py:124
+msgid "Installing..."
+msgstr "Installazione in corso..."
+
+#: IPKInstaller.py:127
+msgid "Do you want to restart GUI now ?"
+msgstr "Vuoi riavviare ora la GUI?"
+
+#: IPKInstaller.py:129
+msgid "Restart GUI."
+msgstr "Riavvio della GUI"
+
+#: IPKInstaller.py:157
+msgid "Invert"
+msgstr "Invertire"
+
+#: IPKInstaller.py:158
+msgid "Press OK to toggle the selection."
+msgstr "Premere OK per cambiare la selezione."
+
+#: ImageManager.py:77 ImageManager.py:144 ImageManager.py:315
+#: ImageManager.py:338 ImageManager.py:576 ui.py:45
+msgid "Image manager"
+msgstr "Gestione immagine"
+
+#: ImageManager.py:100
+msgid "Flash"
+msgstr "FLASH"
+
+#: ImageManager.py:104 ImageManager.py:938
+msgid "Downloads"
+msgstr "Download"
+
+#: ImageManager.py:222 ImageManager.py:229 ImageManager.py:249
+msgid "Select an image to flash:"
+msgstr "Seleziona un'immagine da installare:"
+
+#: ImageManager.py:229
+msgid "Device: None available"
+msgstr "Supporti: Nessuno disponibile"
+
+#: ImageManager.py:249
+msgid "Free space:"
+msgstr "Spazio disponibile:"
+
+#: ImageManager.py:249 MountManager.py:179 MountManager.py:375
+msgid "MB"
+msgstr "MB"
+
+#: ImageManager.py:295
+msgid ""
+"Are you sure you want to delete this image backup:\n"
+" "
+msgstr ""
+"Vuoi eliminare questo backup:\n"
+" "
+
+#: ImageManager.py:299
+msgid "You have no image to delete."
+msgstr "Non hai nessuna immagine da eliminare."
+
+#: ImageManager.py:326
+msgid ""
+"Do you want to create a full image backup?\n"
+"This can take about 6 minutes to complete."
+msgstr ""
+"Si desidera creare un backup completo dell’immagine?\n"
+"Può richiedere circa 6 minuti."
+
+#: ImageManager.py:328
+msgid "Backup confirmation"
+msgstr "Conferma backup"
+
+#: ImageManager.py:357
+msgid ""
+"Are you sure you want to flash this image:\n"
+" "
+msgstr ""
+"Vuoi flashare questa immagine:\n"
+" "
+
+#: ImageManager.py:359
+msgid "Restore confirmation"
+msgstr "Conferma ripristino"
+
+#: ImageManager.py:361
+msgid "You have no image to flash."
+msgstr "Non hai nessuna immagine da installare."
+
+#: ImageManager.py:371
+msgid "Please wait while the flash prepares"
+msgstr "Attendere che il processo di flashing venga preparato"
+
+#: ImageManager.py:393
+#, python-format
+msgid ""
+"ofgwrite error (also sent to any debug log):\n"
+"%s"
+msgstr ""
+"Errore di scrittura: (scritto anche nel Log):\n"
+"%s"
+
+#: ImageManager.py:473
+#, python-format
+msgid ""
+"Your %s %s is about to create a full image backup, this can take about 6 "
+"minutes to complete.\n"
+"Do you want to allow this?"
+msgstr ""
+"Il tuo %s %s sta per eseguire un backup completo. Potrebbe impiegare circa 6 "
+"minuti:\n"
+"procedo?"
+
+#: ImageManager.py:577
+msgid "Setting up..."
+msgstr "Impostazione..."
+
+#: ImageManager.py:580
+msgid "Checking free RAM.."
+msgstr "Controllo RAM disponibile..."
+
+#: ImageManager.py:583
+msgid "Creating swap.."
+msgstr "Sto creandolo swap..."
+
+#: ImageManager.py:586 ImageManager.py:589
+msgid "Backing up kernel..."
+msgstr "Backup del kernel…"
+
+#: ImageManager.py:592 ImageManager.py:595
+msgid "Backing up root file system..."
+msgstr "Backup del file system (root)"
+
+#: ImageManager.py:598 ImageManager.py:601
+msgid "Removing temp mounts..."
+msgstr "Rimozione punti di mount temporanei..."
+
+#: ImageManager.py:604 ImageManager.py:607
+msgid "Moving to backup Location..."
+msgstr "Spostamento nel percorso di backup..."
+
+#: ImageManager.py:610 ImageManager.py:613
+msgid "Creating zip..."
+msgstr "Sto creando il file zippato..."
+
+#: ImageManager.py:616
+msgid "Backup complete..."
+msgstr "Backup completo..."
+
+#: ImageManager.py:635
+msgid "The backup location does not have enough free space.\n"
+msgstr "Il dispositivo di backup non ha spazio sufficiente\n"
+
+#: ImageManager.py:671
+msgid ""
+"Sorry, not enough free ram found, and no physical devices that supports SWAP "
+"attached. Can't create Swapfile on network or fat32 filesystems, unable to "
+"make backup"
+msgstr ""
+"Memoria libera insufficiente e nessun dispositivo che supporti SWAP "
+"collegato. Impossibile creare file di swap su rete o filesystem fat32. "
+"Impossibile effettuare il backup"
+
+#: ImageManager.py:951
+msgid "Select an image to Download:"
+msgstr "Seleziona un’immagine da ripristinare"
+
+#: ImageManager.py:953
+msgid "Download"
+msgstr "Download"
+
+#: ImageManager.py:1088
+msgid ""
+"Are you sure you want to download this image:\n"
+" "
+msgstr ""
+"Vuoi scaricare quest’immagine:\n"
+" "
+
+#: ImageManager.py:1090
+msgid "Download confirmation"
+msgstr "Conferma download"
+
+#: ImageManager.py:1092
+msgid "You have no image to download."
+msgstr "Non c’è nessuna immagine da scaricare."
+
+#: ImageManager.py:1101
+msgid "Downloading"
+msgstr "Eseguo il download"
+
+#: MountManager.py:27 ui.py:53
+msgid "Mount manager"
+msgstr "Gestione mount"
+
+#: MountManager.py:48
+msgid "Setup mounts"
+msgstr "Impostazioni mount"
+
+#: MountManager.py:49
+msgid "Un-mount"
+msgstr "Smontaggio"
+
+#: MountManager.py:50
+msgid "Mount"
+msgstr "Mount"
+
+#: MountManager.py:80
+msgid "Use as HDD"
+msgstr "Usa come HDD"
+
+#: MountManager.py:101
+msgid "Please wait while scanning for devices..."
+msgstr "Controllo supporti in corso..."
+
+#: MountManager.py:130 MountManager.py:343
+msgid "HARD DISK: "
+msgstr "HARD DISK: "
+
+#: MountManager.py:139 MountManager.py:352
+msgid "USB: "
+msgstr "USB: "
+
+#: MountManager.py:155 MountManager.py:157 MountManager.py:167
+#: MountManager.py:169 MountManager.py:358
+msgid "None"
+msgstr "Nessuno"
+
+#: MountManager.py:156 MountManager.py:181 MountManager.py:359
+#: MountManager.py:377
+msgid "unavailable"
+msgstr "non disponibile"
+
+#: MountManager.py:175 MountManager.py:177 MountManager.py:179
+#: MountManager.py:181 MountManager.py:371 MountManager.py:373
+#: MountManager.py:375 MountManager.py:377
+msgid "Size: "
+msgstr "Dimensione: "
+
+#: MountManager.py:175 MountManager.py:371
+msgid "TB"
+msgstr "TB"
+
+#: MountManager.py:177 MountManager.py:373
+msgid "GB"
+msgstr "GB"
+
+#: MountManager.py:189 MountManager.py:203 MountManager.py:223
+msgid "Mount: "
+msgstr "Mount: "
+
+#: MountManager.py:189
+msgid "Type: "
+msgstr "Tipo: "
+
+#: MountManager.py:214
+msgid "Mount failed"
+msgstr "Mount fallito"
+
+#: MountManager.py:233
+msgid ""
+"Can't un-mount the partition, make sure it is not being used for swap or "
+"record/timeshift paths"
+msgstr ""
+"Non posso smontare la partizione: assicurarsi che non sia in uso per lo "
+"SWAP\n"
+"o come percorso per registrazioni o timeshift."
+
+#: MountManager.py:251
+msgid "This device is already mounted as HDD."
+msgstr "Questo dispositivo è già montato come HDD"
+
+#: MountManager.py:286
+msgid "Choose where to mount your devices to:"
+msgstr "Scegliere dove montare i tuoi dispositivi:"
+
+#: MountManager.py:300
+#, python-format
+msgid "Please wait while scanning your %s %s devices..."
+msgstr "Attendere mentre esamino i dispositivo del tuo %s %s"
+
+#: MountManager.py:404
+msgid "Updating mount locations."
+msgstr "Aggiorno i punti di mount"
+
+#: MountManager.py:406
+msgid "Please wait."
+msgstr "Attendere prego."
+
+#: MountManager.py:409
+#, python-format
+msgid ""
+"The changes need a system restart to take effect.\n"
+"Restart your %s %s now?"
+msgstr ""
+"Le modifiche richiedono un riavvio.\n"
+"Riavviare il %s %s ora?"
+
+#: MountManager.py:411
+#, python-format
+msgid "Restart %s %s."
+msgstr "Riavvio %s %s."
+
+#: RestoreWizard.py:101
+msgid "OK, to perform a restore"
+msgstr "OK: esegui il ripristino"
+
+#: RestoreWizard.py:101
+msgid "Exit the restore wizard"
+msgstr "Esci dalla procedura di ripristino"
+
+#: RestoreWizard.py:105
+msgid "YES, to restore settings"
+msgstr "Si, ripristina le configurazioni"
+
+#: RestoreWizard.py:105
+msgid "NO, do not restore settings"
+msgstr "No, non ripristinare le configurazioni"
+
+#: RestoreWizard.py:111 RestoreWizard.py:114
+msgid "YES, to restore plugins"
+msgstr "Si, ripristina i plugin"
+
+#: RestoreWizard.py:112 RestoreWizard.py:115
+msgid "NO, do not restore plugins"
+msgstr "No, non ripristinare i plugin"
+
+#: RestoreWizard.py:139 RestoreWizard.py:144
+msgid "Please wait while the system gathers information..."
+msgstr "Attendere mentre il sistema raccoglie informazioni..."
+
+#: RestoreWizard.py:140 RestoreWizard.py:145 RestoreWizard.py:152
+#: RestoreWizard.py:161 RestoreWizard.py:170 RestoreWizard.py:174
+#: RestoreWizard.py:199 RestoreWizard.py:203 RestoreWizard.py:212
+#: RestoreWizard.py:275 RestoreWizard.py:279 RestoreWizard.py:283 plugin.py:137
+msgid "Restore wizard"
+msgstr "Procedura di ripristino"
+
+#: RestoreWizard.py:151
+msgid "Please wait while plugins restore completes..."
+msgstr "Attendere mentre viene effettuato il ripristino dei plugin..."
+
+#: RestoreWizard.py:160
+msgid ""
+"Sorry the feeds are down for maintenance, Please try using Backup Manager to "
+"restore plugins later."
+msgstr "I server sono in manutenzione. Riprovare più tardi."
+
+#: RestoreWizard.py:169
+#, python-format
+msgid ""
+"Your %s %s is not connected to the internet, Please try using Backup Manager "
+"to restore plugins later."
+msgstr ""
+"Il tuo %s %s non è connesso a Internet: prova a usare Gestione Backup per "
+"ripristinare i tuoi plugin."
+
+#: RestoreWizard.py:211
+msgid "Please wait while settings restore completes..."
+msgstr "Ripristino configurazioni in corso..."
+
+#: RestoreWizard.py:274
+#, python-format
+msgid ""
+"Your %s %s is not connected to the internet, Please try using the Backup "
+"Manager to restore plugins later."
+msgstr "Il tuo %s %s non è connesso a Internet: riprova più tardi."
+
+#: RestoreWizard.py:278
+msgid ""
+"Sorry the feeds are down for maintenance, Please try using the Backup "
+"Manager to restore plugins later."
+msgstr "Il server è in manutenzione: riprovare più tardi."
+
+#: SwapManager.py:81 ui.py:61
+msgid "Swap manager"
+msgstr "Gestione file di swap"
+
+#: SwapManager.py:99
+msgid "Swap place:"
+msgstr "Posizione file di swap"
+
+#: SwapManager.py:101
+msgid "Swap size:"
+msgstr "Dimensione file di swap"
+
+#: SwapManager.py:103
+msgid "Status:"
+msgstr "Stato:"
+
+#: SwapManager.py:104 SwapManager.py:237
+msgid "Inactive"
+msgstr "Inattivo"
+
+#: SwapManager.py:105 SwapManager.py:232
+msgid "Active"
+msgstr "Attivo"
+
+#: SwapManager.py:107 SwapManager.py:236
+msgid "Activate"
+msgstr "Attivare"
+
+#: SwapManager.py:108 SwapManager.py:178
+msgid "Create"
+msgstr "Creare"
+
+#: SwapManager.py:109
+msgid "Autostart"
+msgstr "Autoavvio"
+
+#: SwapManager.py:137 SwapManager.py:232 SwapManager.py:237
+msgid "Current status:"
+msgstr "Stato attuale:"
+
+#: SwapManager.py:138
+msgid "Wait please while scanning..."
+msgstr "Attendere mentre cerco..."
+
+#: SwapManager.py:231
+msgid "Deactivate"
+msgstr "Disattivato"
+
+#: SwapManager.py:238
+msgid "Enable swap at startup"
+msgstr "Abilitare lo swap all'avvio"
+
+#: SwapManager.py:252
+msgid ""
+"Swap file not found. You have to create the file before you try to activate "
+"it."
+msgstr "File di swap non trovato: devi prima crearlo per poterlo utilizzare."
+
+#: SwapManager.py:253 SwapManager.py:327
+msgid "Info"
+msgstr "Info"
+
+#: SwapManager.py:287
+msgid "Please select device to use as swapfile location"
+msgstr "Seleziona il supporto da usare per il file di swap."
+
+#: SwapManager.py:289
+msgid ""
+"Sorry, no physical devices that supports swap attached. Can't create Swap "
+"file on network or fat32 filesystems"
+msgstr ""
+"Nessun dispositivo supporta il file di swap: non è possibile creare file di "
+"swap su dispositivi formattati in FAT32."
+
+#: SwapManager.py:294
+msgid "8 Mb"
+msgstr "8 Mb"
+
+#: SwapManager.py:295
+msgid "16 Mb"
+msgstr "16 Mb"
+
+#: SwapManager.py:296
+msgid "32 Mb"
+msgstr "32 Mb"
+
+#: SwapManager.py:297
+msgid "64 Mb"
+msgstr "64 Mb"
+
+#: SwapManager.py:298
+msgid "96 Mb"
+msgstr "96 Mb"
+
+#: SwapManager.py:299
+msgid "128 Mb"
+msgstr "128 Mb"
+
+#: SwapManager.py:300
+msgid "256 Mb"
+msgstr "256 Mb"
+
+#: SwapManager.py:301
+msgid "Select the Swap File Size:"
+msgstr "Seleziona la dimensione del file di swap:"
+
+#: SwapManager.py:306
+msgid "Wait please while creating swapfile..."
+msgstr "Sto creando il file di swap..."
+
+#: SwapManager.py:326
+msgid "You have to create a swap file before trying to activate the autostart."
+msgstr ""
+"Devi creare un file di swap prima di poter attivare l’avvio automatico."
+
+#: plugin.py:126
+msgid "Install extensions."
+msgstr "Installa estensioni"
+
+#: plugin.py:132 ui.py:57
+msgid "Script runner"
+msgstr "Esecutore di script"
+
+#: plugin.py:138
+msgid "Ipkg"
+msgstr "Ipkg"
+
+#: plugin.py:139
+msgid "ViX Backup manager"
+msgstr "Gestione backup ViX"
+
+#: plugin.py:140
+msgid "ViX Image manager"
+msgstr "Gestione immagine ViX"
+
+#: plugin.py:141
+msgid "ViX Mount manager"
+msgstr "Gestione mount ViX"
+
+#: plugin.py:142
+msgid "ViX Script runner"
+msgstr "Esecutore script ViX"
+
+#: plugin.py:143
+msgid "ViX Swap manager"
+msgstr "Gestione Swap ViX"
+
+#: ui.py:17
+msgid "OBH"
+msgstr "OBH"
+
+#: ui.py:18
+msgid "Main menu"
+msgstr "MENU principale"
+
+#: ui.py:18
+msgid "Setup"
+msgstr "Impostazioni"
+
+#: ui.py:42
+msgid "Manage the backups of your settings."
+msgstr "Gestione del backup delle configurazioni"
+
+#: ui.py:46
+msgid "Create and flash complete images of your system."
+msgstr "Creazione e flash di un’immagine completa del tuo sistema"
+
+#: ui.py:49
+msgid "Install local extension"
+msgstr "Installazione estensioni locali"
+
+#: ui.py:50
+msgid "Install IPK's from your tmp folder."
+msgstr "Installazione pacchetti IPK dalla cartella tmp (/var/volatile/tmp)"
+
+#: ui.py:54
+msgid "Manage your devices mount points."
+msgstr "Gestisci i punti di mount dei tuoi supporti."
+
+#: ui.py:58
+msgid "Run your shell scripts."
+msgstr "Avvia i tuoi script."
+
+#: ui.py:62
+msgid "Create and Manage your swap files."
+msgstr "Crea e gestisci i file di swap."
