@@ -684,6 +684,7 @@ class ImageBackup(Screen):
 		self.ROOTFSFILE = getMachineRootFile()
 		self.MAINDEST = self.MAINDESTROOT + '/' + getImageFolder() + '/'
 		self.MODEL = getBoxType()
+		self.MACHINEBUILD = getMachineBuild()
 		if SystemInfo["canMultiBoot"]:
 			kernel = GetCurrentImage()
 			if SystemInfo["HasHiSi"]:
@@ -714,7 +715,7 @@ class ImageBackup(Screen):
 			self.ROOTDEVTYPE = 'ubifs'
 			self.ROOTFSTYPE = 'ubifs'
 			self.KERNELFSTYPE = 'gz'
-		elif getImageFileSystem().replace(' ','') == 'tar.bz2':
+		elif getImageFileSystem().replace(' ','') == 'tar.bz2' or self.MACHINEBUILD in ('u5', 'u52', 'u5pvr'):
 			self.ROOTDEVTYPE = 'tar.bz2'
 			self.ROOTFSTYPE = 'tar.bz2'
 			self.KERNELFSTYPE = 'bin'
